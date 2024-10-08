@@ -1,13 +1,83 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline bg-red-400">
-    Hello world!
-  </h1>
+    <header>
+        <div class="grid text-white">
+            <div class="flex flex-wrap md:flex-no-wrap bg-darkblue-900 px-2 py-1 items-center justify-between">
+                <i class="fa fa-bars ml-2 text-3xl border-2 border-white/10 py-1 px-2"></i>
+                <img src="./img/amazon_logo.png" class="h-7 mx-6">
+               
+                <div class="flex grow min-w-[500px]  order-2 md:order-none">
+                    <select name="" id="" class="hidden md:flex bg-gray-300 text-black p-3 md-0 rounded-l-md my-2">
+                        <option>Livros</option>
+                        <option>Jogos</option>
+                    </select>
+                    <input type="text" class="grow p-3 my-2 text-black ">
+                    <i class="fa fa-search p-2 my-2 bg-orange-300 text-black text-2xl w-12 text-center rounded-r-md order-3 md:order-none" ></i>
+                </div>
+              
+
+                <div class="hidden md:flex ">
+                    <div class="flex flex-col ml-2 justify-center items-center">
+                        <p class="" >Olá, faça seu login</p>
+                        <select name="" id="" class="bg-darkblue-900 font-bold ">
+                            <option>Contas e listas</option>
+                            <option>Contas e listas 2</option>
+                        </select>
+                    </div>
+    
+                    <div class="flex flex-col mx-2 justify-center items-center"">
+                        <p class=" text-base">Devoluções</p>
+                        <p class="font-bold">E pedidos</p>
+                    </div>
+    
+                    <div class="flex flex-col mx-2 justify-center items-center"">
+                        <p class=" ">Experimente</p>
+                        <select name="" id="" class="bg-darkblue-900 font-bold ">
+                            <option>Prime </option>
+                            <option>Prime 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex mx-2 justify-center items-center md:order-none ">
+                    <i class=" fa-solid fa-cart-shopping text-3xl relative" ><span class="bold text-gold-200 text-base text-center w-6 h-6 bg-darkblue-600 rounded-full absolute -top-2 left-3">0</span></i>
+                    
+                    <p class="hidden md:flex text-base font-bold" >Carrinho</p>
+                </div>
+            
+            </div>
+            <div class="flex text-white bg-darkblue-600  items-center text-sm px-2 py-1">
+                <i class="fas fa-map-marker-alt text-xl "></i>
+                <div class="flex md:block text-xs ml-3 border border-transparent hover:border-white rounded-sm px-2 py-1">
+                    <p class="mx-1 md:mx-0">Olá</p>
+                    <p class="font-bold">Selecione o endereço</p>
+                </div>
+                <div class="hidden md:flex gap-x-5 ml-5 text-sm">
+                    <p class="border border-transparent hover:border-white rounded-sm px-2 py-1">Mais vendidos</p>
+                    <p class="border border-transparent hover:border-white rounded-sm px-2 py-1">Livros</p>
+                    <p class="border border-transparent hover:border-white rounded-sm px-2 py-1">Oferta do dia</p>
+                    <p class="border border-transparent hover:border-white rounded-sm px-2 py-1">Atendimento ao cliente</p>
+                    <p class="border border-transparent hover:border-white rounded-sm px-2 py-1">Eletrônicos</p>
+                    <p class="border border-transparent hover:border-white rounded-sm px-2 py-1">Ideias para Presentes</p>
+                </div>
+               
+            </div>
+        </div>
+      
+    </header>
+
+
+    <main>
+      
+    </main>
+   
 </body>
 </html>
